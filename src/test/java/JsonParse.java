@@ -1,9 +1,11 @@
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.restassured.path.json.JsonPath;
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import org.springframework.util.Assert;
 
 import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class JsonParse {
@@ -84,7 +86,7 @@ public class JsonParse {
         System.out.println(sum);
 
 
-        Assert.assertEquals(sum, js.getInt("dashboard.purchaseAmount"));
+        assertEquals(sum, js.getInt("dashboard.purchaseAmount"));
     }
 }
 
