@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a84acedc-8272-4368-b52f-6913c9d3fa1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,31 +26,32 @@
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="3" />
-          <entry key="java" value="9" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="9" />
-          <entry key="java" value="3664" />
+          <entry key="java" value="4669" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="9" />
-          <entry key="JAVA" value="3664" />
+          <entry key="JAVA" value="4669" />
         </counts>
       </usages-collector>
     </session>
@@ -59,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AddPlace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="19">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,28 +71,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Payload.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UpdatePlace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-314">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -98,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/JsonParse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="57">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -107,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LibraryAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540">
-              <caret line="22" selection-start-line="22" selection-end-line="25" />
+            <state relative-caret-position="133">
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,14 +103,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Math.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JiraTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="771" column="25" selection-start-line="771" selection-start-column="25" selection-end-line="771" selection-end-column="25" />
+            <state relative-caret-position="1178">
+              <caret line="62" column="161" selection-start-line="62" selection-start-column="161" selection-end-line="62" selection-end-column="161" />
               <folding>
-                <element signature="e#32010#32011#0" expanded="true" />
-                <element signature="e#32095#32096#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -519,6 +502,7 @@
         <option value="$PROJECT_DIR$/src/test/java/AddPlace.java" />
         <option value="$PROJECT_DIR$/src/test/java/Payload.java" />
         <option value="$PROJECT_DIR$/src/test/java/LibraryAPI.java" />
+        <option value="$PROJECT_DIR$/src/test/java/JiraTests.java" />
       </list>
     </option>
   </component>
@@ -528,7 +512,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="16" />
     <option name="y" value="352" />
     <option name="width" value="1833" />
@@ -540,7 +524,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -578,10 +561,11 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585156183509" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585373810539" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -599,11 +583,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryAPI.addBook (1)">
+  <component name="RunManager" selected="JUnit.JiraTests.addComment">
     <configuration name="All in restassured_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restassured_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JiraTests.addComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restassured_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JiraTests" />
+      <option name="METHOD_NAME" value="addComment" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -626,16 +620,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryAPI.addBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restassured_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryAPI" />
-      <option name="METHOD_NAME" value="addBook" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LibraryAPI.addBook2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restassured_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -647,19 +631,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LibraryAPI.addBook" />
       <item itemvalue="JUnit.LibraryAPI" />
       <item itemvalue="JUnit.All in restassured_test" />
       <item itemvalue="JUnit.LibraryAPI.addBook2" />
       <item itemvalue="JUnit.LibraryAPI.addBook (1)" />
+      <item itemvalue="JUnit.JiraTests.addComment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JiraTests.addComment" />
         <item itemvalue="JUnit.LibraryAPI.addBook (1)" />
         <item itemvalue="JUnit.LibraryAPI" />
         <item itemvalue="JUnit.LibraryAPI.addBook2" />
         <item itemvalue="JUnit.All in restassured_test" />
-        <item itemvalue="JUnit.LibraryAPI.addBook" />
       </list>
     </recent_temporary>
   </component>
@@ -677,41 +661,70 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryAPI_addBook_(1) - 2020.03.25 at 07h 22m 34s.xml">
+    <history-entry file="LibraryAPI_addBook_(1) - 2020.03.25 at 18h 10m 53s.xml">
       <configuration name="LibraryAPI.addBook (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryAPI_addBook_(1) - 2020.03.25 at 07h 32m 13s.xml">
-      <configuration name="LibraryAPI.addBook (1)" configurationId="JUnit" />
+    <history-entry file="JiraTests_addComment - 2020.03.27 at 08h 19m 33s.xml">
+      <configuration name="JiraTests.addComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryAPI_addBook_(1) - 2020.03.25 at 07h 32m 57s.xml">
-      <configuration name="LibraryAPI.addBook (1)" configurationId="JUnit" />
+    <history-entry file="JiraTests_addComment - 2020.03.27 at 08h 27m 36s.xml">
+      <configuration name="JiraTests.addComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryAPI_addBook_(1) - 2020.03.25 at 07h 33m 40s.xml">
-      <configuration name="LibraryAPI.addBook (1)" configurationId="JUnit" />
+    <history-entry file="JiraTests_addComment - 2020.03.27 at 08h 35m 23s.xml">
+      <configuration name="JiraTests.addComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryAPI_addBook_(1) - 2020.03.25 at 07h 34m 35s.xml">
-      <configuration name="LibraryAPI.addBook (1)" configurationId="JUnit" />
+    <history-entry file="JiraTests_addComment - 2020.03.27 at 08h 42m 00s.xml">
+      <configuration name="JiraTests.addComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryAPI_addBook_(1) - 2020.03.25 at 07h 39m 09s.xml">
-      <configuration name="LibraryAPI.addBook (1)" configurationId="JUnit" />
+    <history-entry file="JiraTests_addComment - 2020.03.27 at 08h 43m 47s.xml">
+      <configuration name="JiraTests.addComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryAPI_addBook_(1) - 2020.03.25 at 07h 39m 59s.xml">
-      <configuration name="LibraryAPI.addBook (1)" configurationId="JUnit" />
+    <history-entry file="JiraTests_addComment - 2020.03.27 at 08h 46m 48s.xml">
+      <configuration name="JiraTests.addComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryAPI_addBook_(1) - 2020.03.25 at 08h 49m 49s.xml">
-      <configuration name="LibraryAPI.addBook (1)" configurationId="JUnit" />
+    <history-entry file="JiraTests_addComment - 2020.03.27 at 08h 47m 25s.xml">
+      <configuration name="JiraTests.addComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryAPI_addBook_(1) - 2020.03.25 at 08h 58m 45s.xml">
-      <configuration name="LibraryAPI.addBook (1)" configurationId="JUnit" />
+    <history-entry file="JiraTests_addComment - 2020.03.27 at 09h 01m 02s.xml">
+      <configuration name="JiraTests.addComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryAPI_addBook_(1) - 2020.03.25 at 08h 59m 47s.xml">
-      <configuration name="LibraryAPI.addBook (1)" configurationId="JUnit" />
+    <history-entry file="JiraTests_addComment - 2020.03.28 at 06h 36m 11s.xml">
+      <configuration name="JiraTests.addComment" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="7" />
     <layout>
+      <window_info anchor="top" id="Maven Projects" order="0" side_tool="true" weight="0.32990867" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17028381" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5502283" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933628" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32964602" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22345133" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.28207964" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32964602" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25709516" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -721,13 +734,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20464602" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7289823" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933628" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32964602" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4159292" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22345133" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.28207964" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32964602" />
@@ -740,7 +753,7 @@
       <window_info anchor="right" id="Gradle" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -776,26 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JsonParse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AddPlace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Payload.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -807,24 +800,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="771" column="25" selection-start-line="771" selection-start-column="25" selection-end-line="771" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AddPlace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#32010#32011#0" expanded="true" />
-            <element signature="e#32095#32096#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UpdatePlace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-314">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JsonParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LibraryAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="22" selection-start-line="22" selection-end-line="25" />
+        <state relative-caret-position="133">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JiraTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="62" column="161" selection-start-line="62" selection-start-column="161" selection-end-line="62" selection-end-column="161" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
