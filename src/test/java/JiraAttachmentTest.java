@@ -1,40 +1,41 @@
 import io.restassured.RestAssured;
+import io.restassured.filter.session.SessionFilter;
 import io.restassured.path.json.JsonPath;
 import org.junit.jupiter.api.Test;
 
+import java.io.File;
+
 import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.when;
 import static org.hamcrest.Matchers.equalTo;
 
-public class JiraTests {
+public class JiraAttachmentTest {
 
 
     @Test
-    public void addComment(){
+    public void addAttachment() {
 
         RestAssured.baseURI = "http://localhost:8888";
 
 
-        //get sessionID ---------------------------
+        //create session filter---------------------------
 
-       String response = given().log().all().header("Content-Type", "application/json")
+        SessionFilter session = new SessionFilter();
+
+        given().log().all().header("Content-Type", "application/json")
                 .body("{\n" +
                         "    \"username\": \"monika.bacinska\",\n" +
                         "    \"password\": \"zaq12WSX\"\n" +
                         "}")
+                .filter(session)
                 .when().post("/rest/auth/1/session")
                 .then().log().all()
-                .assertThat().statusCode(200)
-                .extract().response().asString();
-
-        JsonPath js = new JsonPath(response);
-        String sessionId = js.getString("session.value");
-
-        System.out.println("new sessionID equals: " +sessionId);
+                .assertThat().statusCode(200);
 
 
         //create new issue -------------------------
 
-        String response1 = given().log().all().header("Content-Type", "application/json").header("Cookie", "JSESSIONID="+sessionId+"")
+        String response1 = given().log().all().header("Content-Type", "application/json").filter(session)
                 .body("{\n" +
                         "\"fields\": {\n" +
                         "    \"project\": {\n" +
@@ -55,54 +56,49 @@ public class JiraTests {
         JsonPath js1 = new JsonPath(response1);
         Integer id = js1.getInt("id");
 
-        System.out.println("Issue id equals to: "+id);
+        System.out.println("Issue id equals to: " + id);
 
 
-        //add comment to created issue
+        //add comment to existing issue
 
-       String response2 = given().log().all().header("Content-Type", "application/json").header("Cookie", "JSESSIONID="+sessionId+"")
+        given().log().all().filter(session).header("Content-Type", "application/json").pathParam("issueID", +id + "")
                 .body("{\n" +
                         "  \"visibility\": {\n" +
                         "    \"type\": \"role\",\n" +
                         "    \"value\": \"Administrators\"\n" +
                         "  },\n" +
-                        "  \"body\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget venenatis elit. Duis eu justo eget augue iaculis fermentum. Sed semper quam laoreet nisi egestas at posuere augue semper.\"\n" +
+                        "  \"body\": \"Adding comment.Wait for an attachment.\"\n" +
                         "}")
-                .when().post("/rest/api/2/issue/"+id+"/comment")
+                .when().post("/rest/api/2/issue/{issueID}/comment")
                 .then().log().all()
-                .assertThat().statusCode(201)
-                .extract().response().asString();
+                .assertThat().statusCode(201);
 
 
-
-        JsonPath js2 = new JsonPath(response2);
-        Integer id2 = js2.getInt("id");
-
-
-        System.out.println("Comment id equals to: "+id2);
-
-
-        //update created comment
-
-        given().log().all().header("Content-Type", "application/json").header("Cookie", "JSESSIONID="+sessionId+"")
-                .body("{\n" +
-                        "  \"visibility\": {\n" +
-                        "    \"type\": \"role\",\n" +
-                        "    \"value\": \"Administrators\"\n" +
-                        "  },\n" +
-                        "  \"body\": \"Comment updated.\"\n" +
-                        "}")
-                .when().put("/rest/api/2/issue/"+id+"/comment/"+id2+"")
+        //add attachment to the issue
+//
+        given().log().all().pathParam("issueID", +id + "").header("X-Atlassian-Token", "no-check").header("Content-Type", "multipart/form-data").filter(session)
+                .multiPart("file", new File("/home/darek/IdeaProjects/RestAssured/src/test/jiraAttachment.txt"))
+                .when().post("/rest/api/2/issue/{issueID}/attachments")
                 .then().log().all()
-                .assertThat().statusCode(200)
-                .body("body", equalTo("Comment updated."));
+                .assertThat().statusCode(200);
+
+
+        //get the issue
+
+        String issueDetails = given().log().all().filter(session).pathParam("issueID", +id + "")
+                .queryParam("fields", "comment")
+                .when().get("/rest/api/2/issue/{issueID}")
+                .then().log().all()
+                .extract().body().asString();
+
+        System.out.println(issueDetails);
 
 
         //delete issue
 
-        given().log().all().header("Cookie", "JSESSIONID="+sessionId+"")
-                .when().delete("/rest/api/2/issue/"+id+"")
-                .then().log().all()
-                .assertThat().statusCode(204);
-   }
+//        given().log().all().filter(session)
+//                .when().delete("/rest/api/2/issue/" + id + "")
+//                .then().log().all()
+//                .assertThat().statusCode(204);
+    }
 }

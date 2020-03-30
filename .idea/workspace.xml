@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a84acedc-8272-4368-b52f-6913c9d3fa1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JiraTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/JiraTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/JiraTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JiraAttachmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JiraAttachmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JiraTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JiraTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OAuthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/jiraAttachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/jiraAttachment.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -23,35 +30,41 @@
     <session id="-1936559300">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="3" />
-          <entry key="java" value="10" />
+          <entry key="gradle" value="4" />
+          <entry key="java" value="13" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="10" />
+          <entry key="Groovy" value="4" />
+          <entry key="JAVA" value="13" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="9" />
-          <entry key="java" value="4669" />
+          <entry key="gradle" value="10" />
+          <entry key="java" value="6219" />
+          <entry key="txt" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="9" />
-          <entry key="JAVA" value="4669" />
+          <entry key="Groovy" value="10" />
+          <entry key="JAVA" value="6219" />
+          <entry key="PLAIN_TEXT" value="51" />
         </counts>
       </usages-collector>
     </session>
@@ -59,10 +72,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AddPlace.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JiraTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="1026">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,46 +84,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UpdatePlace.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JiraAttachmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/JsonParse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LibraryAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1501">
+              <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/JiraTests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/OAuthTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="62" column="161" selection-start-line="62" selection-start-column="161" selection-end-line="62" selection-end-column="161" />
+            <state relative-caret-position="36">
+              <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.141.59/8950c1557ead2cdba4fdb9ba6f107dce3b5f1520/selenium-remote-driver-3.141.59-sources.jar!/org/openqa/selenium/remote/service/DriverService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1919">
+              <caret line="146" column="52" selection-start-line="146" selection-start-column="52" selection-end-line="146" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/jiraAttachment.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -305,9 +321,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6339658221000" />
+        <entry key="$PROJECT_DIR$" value="6340063702000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3753385231" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3970423761" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3063937592" />
       </map>
@@ -496,13 +512,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/JsonParseTest.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/JsonParse.java" />
         <option value="$PROJECT_DIR$/src/test/java/UpdatePlace.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddPlace.java" />
         <option value="$PROJECT_DIR$/src/test/java/Payload.java" />
         <option value="$PROJECT_DIR$/src/test/java/LibraryAPI.java" />
         <option value="$PROJECT_DIR$/src/test/java/JiraTests.java" />
+        <option value="$PROJECT_DIR$/src/test/jiraAttachment.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/JiraAttachmentTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/OAuthTest.java" />
       </list>
     </option>
   </component>
@@ -512,7 +531,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="16" />
     <option name="y" value="352" />
     <option name="width" value="1833" />
@@ -560,16 +579,21 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585373810539" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585545663830" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -583,67 +607,69 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JiraTests.addComment">
-    <configuration name="All in restassured_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OAuthTest.oAuthMechanism">
+    <configuration name="JiraAttachmentTest.addAttachment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restassured_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="JiraAttachmentTest" />
+      <option name="METHOD_NAME" value="addAttachment" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JiraTests.addComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JiraAttachmentTest.addComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restassured_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JiraTests" />
+      <option name="MAIN_CLASS_NAME" value="JiraAttachmentTest" />
       <option name="METHOD_NAME" value="addComment" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryAPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonParse.jsonParse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restassured_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryAPI" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LibraryAPI.addBook (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restassured_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryAPI" />
-      <option name="METHOD_NAME" value="addBook(java.lang.String,java.lang.Long)" />
+      <option name="MAIN_CLASS_NAME" value="JsonParse" />
+      <option name="METHOD_NAME" value="jsonParse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryAPI.addBook2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OAuthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restassured_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryAPI" />
-      <option name="METHOD_NAME" value="addBook2" />
+      <option name="MAIN_CLASS_NAME" value="OAuthTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OAuthTest.oAuthMechanism" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restassured_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OAuthTest" />
+      <option name="METHOD_NAME" value="oAuthMechanism" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LibraryAPI" />
-      <item itemvalue="JUnit.All in restassured_test" />
-      <item itemvalue="JUnit.LibraryAPI.addBook2" />
-      <item itemvalue="JUnit.LibraryAPI.addBook (1)" />
-      <item itemvalue="JUnit.JiraTests.addComment" />
+      <item itemvalue="JUnit.JsonParse.jsonParse" />
+      <item itemvalue="JUnit.JiraAttachmentTest.addComment" />
+      <item itemvalue="JUnit.JiraAttachmentTest.addAttachment" />
+      <item itemvalue="JUnit.OAuthTest" />
+      <item itemvalue="JUnit.OAuthTest.oAuthMechanism" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JiraTests.addComment" />
-        <item itemvalue="JUnit.LibraryAPI.addBook (1)" />
-        <item itemvalue="JUnit.LibraryAPI" />
-        <item itemvalue="JUnit.LibraryAPI.addBook2" />
-        <item itemvalue="JUnit.All in restassured_test" />
+        <item itemvalue="JUnit.OAuthTest.oAuthMechanism" />
+        <item itemvalue="JUnit.OAuthTest" />
+        <item itemvalue="JUnit.JiraAttachmentTest.addAttachment" />
+        <item itemvalue="JUnit.JiraAttachmentTest.addComment" />
+        <item itemvalue="JUnit.JsonParse.jsonParse" />
       </list>
     </recent_temporary>
   </component>
@@ -661,42 +687,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryAPI_addBook_(1) - 2020.03.25 at 18h 10m 53s.xml">
-      <configuration name="LibraryAPI.addBook (1)" configurationId="JUnit" />
+    <history-entry file="OAuthTest_oAuthMechanism - 2020.03.29 at 17h 15m 19s.xml">
+      <configuration name="OAuthTest.oAuthMechanism" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JiraTests_addComment - 2020.03.27 at 08h 19m 33s.xml">
-      <configuration name="JiraTests.addComment" configurationId="JUnit" />
+    <history-entry file="OAuthTest_oAuthMechanism - 2020.03.29 at 17h 19m 16s.xml">
+      <configuration name="OAuthTest.oAuthMechanism" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JiraTests_addComment - 2020.03.27 at 08h 27m 36s.xml">
-      <configuration name="JiraTests.addComment" configurationId="JUnit" />
+    <history-entry file="OAuthTest_oAuthMechanism - 2020.03.29 at 19h 02m 41s.xml">
+      <configuration name="OAuthTest.oAuthMechanism" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JiraTests_addComment - 2020.03.27 at 08h 35m 23s.xml">
-      <configuration name="JiraTests.addComment" configurationId="JUnit" />
+    <history-entry file="OAuthTest_oAuthMechanism - 2020.03.29 at 19h 19m 25s.xml">
+      <configuration name="OAuthTest.oAuthMechanism" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JiraTests_addComment - 2020.03.27 at 08h 42m 00s.xml">
-      <configuration name="JiraTests.addComment" configurationId="JUnit" />
+    <history-entry file="OAuthTest_oAuthMechanism - 2020.03.29 at 19h 20m 05s.xml">
+      <configuration name="OAuthTest.oAuthMechanism" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JiraTests_addComment - 2020.03.27 at 08h 43m 47s.xml">
-      <configuration name="JiraTests.addComment" configurationId="JUnit" />
+    <history-entry file="OAuthTest_oAuthMechanism - 2020.03.29 at 20h 06m 58s.xml">
+      <configuration name="OAuthTest.oAuthMechanism" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JiraTests_addComment - 2020.03.27 at 08h 46m 48s.xml">
-      <configuration name="JiraTests.addComment" configurationId="JUnit" />
+    <history-entry file="OAuthTest_oAuthMechanism - 2020.03.29 at 20h 08m 03s.xml">
+      <configuration name="OAuthTest.oAuthMechanism" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JiraTests_addComment - 2020.03.27 at 08h 47m 25s.xml">
-      <configuration name="JiraTests.addComment" configurationId="JUnit" />
+    <history-entry file="OAuthTest_oAuthMechanism - 2020.03.29 at 20h 47m 24s.xml">
+      <configuration name="OAuthTest.oAuthMechanism" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JiraTests_addComment - 2020.03.27 at 09h 01m 02s.xml">
-      <configuration name="JiraTests.addComment" configurationId="JUnit" />
+    <history-entry file="OAuthTest_oAuthMechanism - 2020.03.29 at 20h 50m 44s.xml">
+      <configuration name="OAuthTest.oAuthMechanism" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JiraTests_addComment - 2020.03.28 at 06h 36m 11s.xml">
-      <configuration name="JiraTests.addComment" configurationId="JUnit" />
+    <history-entry file="OAuthTest_oAuthMechanism - 2020.03.29 at 20h 54m 18s.xml">
+      <configuration name="OAuthTest.oAuthMechanism" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="7" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="top" id="Maven Projects" order="0" side_tool="true" weight="0.32990867" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17028381" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18475236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -705,13 +732,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5502283" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.07534247" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933628" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32964602" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22345133" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="1.0" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.28207964" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32964602" />
@@ -725,7 +752,8 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25709516" />
+      <window_info anchor="top" id="Maven Projects" order="0" side_tool="true" weight="0.32990867" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18475236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -734,13 +762,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7289823" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.50570774" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933628" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32964602" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22345133" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="1.0" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.28207964" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32964602" />
@@ -749,10 +777,9 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32999444" />
-      <window_info anchor="right" id="Gradle" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -782,13 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Payload.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -807,9 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,30 +837,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JsonParse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LibraryAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JsonParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JiraTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="62" column="161" selection-start-line="62" selection-start-column="161" selection-end-line="62" selection-end-column="161" />
+        <state relative-caret-position="1026">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JiraAttachmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1501">
+          <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.141.59/8950c1557ead2cdba4fdb9ba6f107dce3b5f1520/selenium-remote-driver-3.141.59-sources.jar!/org/openqa/selenium/remote/service/DriverService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="146" column="52" selection-start-line="146" selection-start-column="52" selection-end-line="146" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/jiraAttachment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OAuthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

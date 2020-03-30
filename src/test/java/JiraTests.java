@@ -21,7 +21,7 @@ public class JiraTests {
                         "    \"username\": \"monika.bacinska\",\n" +
                         "    \"password\": \"zaq12WSX\"\n" +
                         "}")
-                .when().post("rest/auth/1/session")
+                .when().post("/rest/auth/1/session")
                 .then().log().all()
                 .assertThat().statusCode(200)
                 .extract().response().asString();
@@ -47,7 +47,7 @@ public class JiraTests {
                         "    }\n" +
                         "}\n" +
                         "}")
-                .when().post("rest/api/2/issue")
+                .when().post("/rest/api/2/issue")
                 .then().log().all()
                 .assertThat().statusCode(201)
                 .extract().response().asString();
@@ -68,7 +68,7 @@ public class JiraTests {
                         "  },\n" +
                         "  \"body\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget venenatis elit. Duis eu justo eget augue iaculis fermentum. Sed semper quam laoreet nisi egestas at posuere augue semper.\"\n" +
                         "}")
-                .when().post("rest/api/2/issue/"+id+"/comment")
+                .when().post("/rest/api/2/issue/"+id+"/comment")
                 .then().log().all()
                 .assertThat().statusCode(201)
                 .extract().response().asString();
@@ -92,7 +92,7 @@ public class JiraTests {
                         "  },\n" +
                         "  \"body\": \"Comment updated.\"\n" +
                         "}")
-                .when().put("rest/api/2/issue/"+id+"/comment/"+id2+"")
+                .when().put("/rest/api/2/issue/"+id+"/comment/"+id2+"")
                 .then().log().all()
                 .assertThat().statusCode(200)
                 .body("body", equalTo("Comment updated."));
@@ -101,7 +101,7 @@ public class JiraTests {
         //delete issue
 
         given().log().all().header("Cookie", "JSESSIONID="+sessionId+"")
-                .when().delete("rest/api/2/issue/"+id+"")
+                .when().delete("/rest/api/2/issue/"+id+"")
                 .then().log().all()
                 .assertThat().statusCode(204);
    }
