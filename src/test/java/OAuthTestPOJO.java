@@ -1,18 +1,11 @@
+import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
-
-import java.io.File;
 
 import static io.restassured.RestAssured.given;
 
 
-public class OAuthTest {
+public class OAuthTestPOJO {
 
 
     @Test
@@ -38,7 +31,7 @@ public class OAuthTest {
 //        driver.findElement(By.cssSelector("input[type='password']")).sendKeys(Keys.ENTER);
 //        Thread.sleep(4000);
 
-        String url = "https://rahulshettyacademy.com/getCourse.php?state=verifyfjdss&code=4%2FyAEAys1bXsiFyvnRrNYdpe0jOY7g4BbNESCL-yytRsbmAFtnpNf9MIM9GspbsLZ3K_nLqhK8FbhJMc8_TZC3TTo&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none#";
+        String url = "https://rahulshettyacademy.com/getCourse.php?state=verifyfjdss&code=4%2FyQGHMtoOK_tnmOujEvpUYpSSReHSY0zjihzgAwPvvbbD-Y03NJhZ3jU3r5i266wHHDR1Z-aME8_pSx9uHp-8VQc&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none#";
 
        // String url = driver.getCurrentUrl();
 
@@ -68,11 +61,14 @@ public class OAuthTest {
         System.out.println(token);
 
 
-        String response3 = given().log().all().queryParam("access_token", token)
+        POJO resp = given().log().all().queryParam("access_token", token).expect().defaultParser(Parser.JSON)
                 .when().get("https://rahulshettyacademy.com/getCourse.php")
-                .then().log().all().extract().body().asString();
+                .then().extract().body().as(POJO.class);
 
-        System.out.println(response3);
+        System.out.println(resp.getInstructor());
+        System.out.println(resp.getLinkedIn());
+
+
 
     }
 }
