@@ -1,8 +1,14 @@
 import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
 import org.junit.jupiter.api.Test;
+import org.springframework.util.Assert;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import static io.restassured.RestAssured.given;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 public class OAuthTestPOJO {
@@ -10,7 +16,6 @@ public class OAuthTestPOJO {
 
     @Test
     public void oAuthMechanism() throws InterruptedException {
-
 
 
 //        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
@@ -33,7 +38,7 @@ public class OAuthTestPOJO {
 
         String url = "https://rahulshettyacademy.com/getCourse.php?state=verifyfjdss&code=4%2FyQGHMtoOK_tnmOujEvpUYpSSReHSY0zjihzgAwPvvbbD-Y03NJhZ3jU3r5i266wHHDR1Z-aME8_pSx9uHp-8VQc&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none#";
 
-       // String url = driver.getCurrentUrl();
+        // String url = driver.getCurrentUrl();
 
         //System.out.println(url);
 
@@ -65,10 +70,34 @@ public class OAuthTestPOJO {
                 .when().get("https://rahulshettyacademy.com/getCourse.php")
                 .then().extract().body().as(POJO.class);
 
+        //get instructor name
         System.out.println(resp.getInstructor());
+        //get linkedIn
         System.out.println(resp.getLinkedIn());
 
+        //print "price" for courseTitle: "SoapUI Webservices Testing"
+        for (int i = 0; i < resp.getCourses().getApi().size(); i++) {
 
+
+            if (resp.getCourses().getApi().get(i).getCourseTitle().equalsIgnoreCase("SoapUI Webservices Testing")) {
+
+                System.out.println(resp.getCourses().getApi().get(i).getPrice());
+            }
+        }
+
+
+        String[] expectedTitles = {"Selenium Webdriver Java", "Cypress", "Protractor"};
+
+        List<String> expectedTitlesList = Arrays.asList(expectedTitles);
+
+        List<String> actualTitlesList = new ArrayList<>();
+
+        for (int i = 0; i < resp.getCourses().getWebAutomation().size(); i++) {
+
+            actualTitlesList.add(resp.getCourses().getWebAutomation().get(i).getCourseTitle());
+        }
+
+        assertTrue(actualTitlesList.equals(expectedTitlesList));
 
     }
 }
